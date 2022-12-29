@@ -8,6 +8,9 @@ The file had 4 columns:
 - `Lon` that represents the longitude value of pickup
 - `Base` that represents the TLC base company assosiated with the ride
 
+Complete Notebook is available on the following link: 
+https://www.kaggle.com/syedbelall/uber-pickup-in-new-york-city
+
 The Code is provided in a script.R file and the output is in a markdown uploaded on Kaggle 
 Some of the few outputs are given here 
 ## Longitude and Latitude mapped on Google Maps 
