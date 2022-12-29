@@ -10,3 +10,8 @@ The file had 4 columns:
 
 The Code is provided in a script.R file and the output is in a markdown uploaded on Kaggle 
 Some of the few outputs are given here 
+## Longitude and Latitude mapped on Google Maps 
+![Google Maps](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/73e0aec908c139b76298af5b951d89afd5510882/images/google%20maps.png)
+
+## Heatmap of Uber pickup with respect to Days and Hours
+![Heatmap](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/73e0aec908c139b76298af5b951d89afd5510882/images/heatmap.png)
