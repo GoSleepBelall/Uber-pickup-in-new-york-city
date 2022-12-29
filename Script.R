@@ -32,7 +32,7 @@ ggplot(data = count_hour_day, aes(x = day_of_week, y = hour_of_day, fill = count
 ## Google Maps
 
 #register yourself
-register_google(key = "AIzaSyDCtPWjahmQHX6XQ8Up1HeMCm6ZZSi6MDk")
+register_google(key = "ADD YOUR KEY HERE")
 random_subset <- uber_data %>%
   sample_n(size = 300000)
 #download map
