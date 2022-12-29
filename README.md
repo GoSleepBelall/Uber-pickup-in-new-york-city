@@ -15,3 +15,14 @@ Some of the few outputs are given here
 
 ## Heatmap of Uber pickup with respect to Days and Hours
 ![Heatmap](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/73e0aec908c139b76298af5b951d89afd5510882/images/heatmap.png)
+
+## Summary:
+- The number of pick-ups increase as the day progresses. 
+- The number of pick-ups peaks around 6 pm when it is office leave time.
+- The base B02617 is the best for Buisness perspective.
+- The base B02512 is the worst for Buisness perspective.
+- Tuesday have highest count of Uber Pickups
+- Weekend shows highest number of pickups in nights.
+- Maximum trend of uber pick-ups are in the center of city.
+- Tuesday was the best day for all bases except B02764. It have Saturday as best day.
+- 13th September had the most pick-ups
