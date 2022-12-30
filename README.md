@@ -25,7 +25,7 @@ Some of the few outputs are given here
 ## Geo-location of Uber calls with respect to each hour
 ![Google Maps](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/0d79c6dfb7f55e06209f6cb48ff3c9ecc70d0702/images/geo-location%20wrt%20hours.png)
 
-## Summary:
+# Summary
 - The number of pick-ups increase as the day progresses. 
 - The number of pick-ups peaks around 6 pm when it is office leave time.
 - The base B02617 is the best for Buisness perspective.
@@ -35,3 +35,7 @@ Some of the few outputs are given here
 - Maximum trend of uber pick-ups are in the center of city.
 - Tuesday was the best day for all bases except B02764. It have Saturday as best day.
 - 13th September had the most pick-ups
+- The data is not enough to predict new Uber pickup call
+  - Even if you're provided with 3 variables, you can't predict the fourth for example:
+  - if you're provided with Lon, Lat, and Hour, you can still not predict which day it could possibly from, because every day of week shows same trend
+  - if you're provided with Lon, Lat and weekday, you can still not predict which hour it belong to because the traffic is scattered without showing a trend throught day.
