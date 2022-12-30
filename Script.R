@@ -142,3 +142,10 @@ ggplot(data = count_hour_day_wrt_base, aes(x = Base, y = hour_of_day, fill = cou
 ggmap(map) +
   geom_point(data = uber_data, aes(x = Lon, y = Lat),color = "red", alpha = 0.2)+
   facet_wrap(~hour_of_day)
+
+
+# Classification of geo-location wrt to hours and weekdays
+# 4 variables classification mapping
+ggmap(map) +
+  geom_point(data = uber_data, aes(x = Lon, y = Lat, color = day_of_week), alpha = 0.2)+
+  facet_wrap(~hour_of_day)
