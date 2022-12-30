@@ -19,6 +19,12 @@ Some of the few outputs are given here
 ## Heatmap of Uber pickup with respect to Days and Hours
 ![Heatmap](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/73e0aec908c139b76298af5b951d89afd5510882/images/heatmap.png)
 
+## Bar plot of count of uber calls each hour throught whole month
+![Bar plot](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/0d79c6dfb7f55e06209f6cb48ff3c9ecc70d0702/images/hours%20plot.png)
+
+## Geo-location of Uber calls with respect to each hour
+![Google Maps](https://github.com/GoSleepBelall/Uber-pickup-in-new-york-city/blob/0d79c6dfb7f55e06209f6cb48ff3c9ecc70d0702/images/geo-location%20wrt%20hours.png)
+
 ## Summary:
 - The number of pick-ups increase as the day progresses. 
 - The number of pick-ups peaks around 6 pm when it is office leave time.
