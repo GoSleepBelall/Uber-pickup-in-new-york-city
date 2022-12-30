@@ -110,3 +110,14 @@ ggplot(count_date, aes(x = date_of_month, y = sum, fill = sum, color = "white"))
   scale_fill_gradient (low ="dark red", high = "black")+
   labs(x = "Date", y = "Count of Uber Pick-ups")+
   scale_x_continuous(breaks = dates, labels = dates)
+
+#############################################################
+# Check Classification
+# Download map
+map <- get_map(location = "NewYork")
+# Map Facet Wraps for each base
+ggmap(map) +
+  geom_point(data = uber_data, aes(x = Lon, y = Lat), color = "red", alpha = 0.2)+
+  facet_wrap(~Base)
+
+# Base is not a good target variable w.r.t Longitude and Latitude
