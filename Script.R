@@ -121,3 +121,18 @@ ggmap(map) +
   facet_wrap(~Base)
 
 # Base is not a good target variable w.r.t Longitude and Latitude
+
+# Let's find if time is a good variable w.r.t Base
+count_hour_day_wrt_base <- uber_data %>%
+  group_by(Base, hour_of_day) %>%
+  summarize(count = n())
+# plot the Heatmap using geom_tile()
+ggplot(data = count_hour_day_wrt_base, aes(x = Base, y = hour_of_day, fill = count)) +
+  geom_tile(color= "black")+
+  scale_fill_gradient(low = "white",high = "red")+
+  labs(x= "Base", y = "Hours")+
+  scale_y_continuous(breaks= hours, labels = hours)+
+  ggtitle("Heatmap of Uber pickups in hours with respect to Base")
+
+# The data is also distributed and scattered in a plain trend that shows no pattern
+# thus it can't be a good metric for target variable
